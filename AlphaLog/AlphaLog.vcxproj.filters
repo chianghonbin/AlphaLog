@@ -14,4 +14,59 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Log.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Noncopyable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Pre.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LogImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LogStream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadsafeQueue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileUtil.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AsyncLogging.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeUtil.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Log.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LogImpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LogStream.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileUtil.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AsyncLogging.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeUtil.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

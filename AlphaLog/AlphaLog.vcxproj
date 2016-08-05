@@ -87,7 +87,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
     </ClCompile>
     <Link>
@@ -146,6 +146,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="AsyncLogging.h" />
+    <ClInclude Include="Buffer.h" />
+    <ClInclude Include="FileUtil.h" />
+    <ClInclude Include="Log.h" />
+    <ClInclude Include="LogImpl.h" />
+    <ClInclude Include="LogStream.h" />
+    <ClInclude Include="Noncopyable.h" />
+    <ClInclude Include="Pre.h" />
+    <ClInclude Include="ThreadsafeQueue.h" />
+    <ClInclude Include="TimeUtil.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AsyncLogging.cpp" />
+    <ClCompile Include="FileUtil.cpp" />
+    <ClCompile Include="Log.cpp" />
+    <ClCompile Include="LogImpl.cpp" />
+    <ClCompile Include="LogStream.cpp" />
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="TimeUtil.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
